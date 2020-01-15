@@ -29,6 +29,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim' " search
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ryanoasis/vim-devicons'
 
 
 " Initialize plugin system
@@ -36,6 +37,8 @@ call plug#end()
 
 
 " Put your non-Plugin stuff after this line
+"install fonts manually, fira mono nerd font, fira mono powerline font 
+set encoding=UTF-8
 
 colorscheme gruvbox
 set background=dark
